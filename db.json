@@ -1,0 +1,40 @@
+{
+    "data" : [
+        {
+            "id": 1,
+            "title": "Amsterdam",
+            "body": "Amsterdam is known for its beautiful canals, quirky architecture, and lively nightlife. It's also a great place to find Dutch art and culture",
+            "price": 60,
+            "image": "http://dummyimage.com/145x187.jpg/cc0000/ffffff"
+        },
+        {
+            "id": 2,
+            "title": "Car",
+            "body": "Lump or mass in breast text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 39,
+            "image": "http://dummyimage.com/191x193.jpg/5fa2dd/ffffff"
+        },
+        {
+            "id": 3,
+            "title": "Moto",
+            "body": "Lump or mass in breast text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 26,
+            "image": "http://dummyimage.com/157x232.jpg/ff4444/ffffff"
+        },
+        {
+            "id": 4,
+            "title": "Shoes",
+            "body": "Lump or mass in breast text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 24,
+            "image": "http://dummyimage.com/117x179.jpg/dddddd/000000"
+        },
+        {
+            "id": 5,
+            "title": "Shirt",
+            "body": "Lump or mass in breast text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+            "price": 86,
+            "image": "http://dummyimage.com/173x147.jpg/ff4444/ffffff"
+        }
+
+    ]
+}
