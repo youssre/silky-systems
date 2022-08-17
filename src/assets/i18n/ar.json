@@ -11,5 +11,13 @@
     "Shopping Cart": "عربة التسوق",
     "add product": "اضافة منتج",
     "Continue Shpping": "استمر فى التسوق",
-    "Subtotal: ": " التكلفة"
+    "Subtotal: ": " التكلفة",
+    "ID": "التسلسل",
+    "Name": "الاسم",
+    "Quantity": "الكميه",
+    "Price": "السعر",
+    "Remove": "حذف",
+    "Add": "اضافة",
+    "Your cart is empty!": "عربة التسوق فارغة!",
+    "add more products Now": "أضف المزيد من المنتجات الآن"
   }

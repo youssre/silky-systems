@@ -4,10 +4,10 @@
     <div class="container" v-if="this.$store.state.cart == 0">
       <div>
         <h1 class="text-danger lead my-4 mx-4">
-          Your cart is empty! <br />
-          <span>add more products Now</span>
+          {{ $t("Your cart is empty!") }} <br />
+          <span>{{ $t("add more products Now") }}</span>
         </h1>
-        <router-link to="/" class="btn btn-outline-secondary mx-4">{{
+        <router-link to="/home" class="btn btn-outline-secondary mx-4">{{
           $t("add product")
         }}</router-link>
       </div>
@@ -17,12 +17,12 @@
       <table class="table table-striped text-center my-4">
         <thead>
           <tr class="text-center">
-            <th class="lead">ID</th>
-            <th class="lead">Name</th>
-            <th class="lead">Price</th>
-            <th class="lead">Quantity</th>
-            <th class="lead">Add | Remove</th>
-            <th class="lead">Remove</th>
+            <th class="lead">{{ $t("ID") }}</th>
+            <th class="lead">{{ $t("Name") }}</th>
+            <th class="lead">{{ $t("Price") }}</th>
+            <th class="lead">{{ $t("Quantity") }}</th>
+            <th class="lead">{{ $t("Add") }} | {{ $t("Remove") }}</th>
+            <th class="lead">{{ $t("Remove") }}</th>
           </tr>
         </thead>
         <tbody>

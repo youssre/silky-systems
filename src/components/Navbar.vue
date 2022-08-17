@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-light py-3">
     <div class="container d-flex justify-content-between align-items-center">
-      <router-link class="navbar-brand lead" to="/">{{
+      <router-link class="navbar-brand lead" to="/home">{{
         $t("Shop")
       }}</router-link>
       <div class="d-flex gap-5 justify-content-between align-items-center">

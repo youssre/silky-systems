@@ -29,13 +29,13 @@
 <script>
 import Card from "@/components/Card";
 import Navbar from "@/components/Navbar.vue";
-//import data from "../../data/db";
-import axios from "axios";
+import data from "../../db.json";
+//import axios from "axios";
 export default {
   name: "HomeView",
   data() {
     return {
-      products: [],
+      products: data,
       search: "",
     };
   },
@@ -43,12 +43,15 @@ export default {
     Card,
     Navbar,
   },
-  mounted() {
-    axios.get(" http://localhost:3000/data").then((res) => {
-      this.products = Object.values(res.data);
-      console.log(typeof this.products);
-    });
+  created() {
+    console.log("test", this.products);
   },
+  // mounted() {
+  //   axios.get(" http://localhost:3000/data").then((res) => {
+  //     this.products = Object.values(res.data);
+  //     console.log(typeof this.products);
+  //   });
+  // },
   computed: {
     filteredProducts() {
       return this.products.filter((product) => {
