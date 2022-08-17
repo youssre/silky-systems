@@ -41,6 +41,9 @@ export default {
       window.location.reload();
     },
   },
+  mounted() {
+    this.lang = localStorage.getItem("lang");
+  },
   computed: {
     ...mapGetters({
       count: "cartCount",
