@@ -58,6 +58,11 @@ export default {
   border: 1px solid #ddd;
   border-radius: 10px;
 }
+@media only screen and (max-width: 500px) {
+  .register {
+    width: 350px;
+  }
+}
 title {
   text-align: center;
 }
